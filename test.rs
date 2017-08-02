@@ -1,3 +1,3 @@
 fn main() {
-    println!("I am {:?}", std::env::current_exe());
+    println!("{:?}", std::env::current_exe());
 }
